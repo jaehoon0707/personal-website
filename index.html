@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 웹 페이지</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        
+        /* 헤더 스타일 */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* 섹션 스타일 */
+        section {
+            padding: 2rem;
+        }
+
+        /* 자기소개 섹션 */
+        #about {
+            text-align: center;
+        }
+
+        /* 경력, 프로젝트 섹션 */
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 연락처 섹션 */
+        #contact {
+            text-align: center;
+        }
+
+        /* 버튼 및 아이콘 스타일 */
+        .social-icons a {
+            margin: 0 0.5rem;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <header>
+        <h1>안재훈의 개인 페이지</h1>
+    </header>
+
+    <!-- 자기소개 -->
+    <section id="about">
+        <h2>자기소개</h2>
+        <p>안녕하세요! 저는 안재훈입니다.</p>
+    </section>
+
+    <!-- 경력 -->
+    <section id="experience" class="content">
+        <h2>경력</h2>
+        <p>중졸.</p>
+    </section>
+
+    <!-- 프로젝트 -->
+    <section id="projects" class="content">
+        <h2>프로젝트</h2>
+        <p>ㅇㅇ</p>
+    </section>
+
+    <!-- 이메일 -->
+    <a href="mailto:hunihuni@gmail.com">이메일 보내기</a>
+
+    <!-- 연락처 -->
+    <section id="contact">
+        <h2>연락하기</h2>
+        <p>아래의 폼을 통해 연락하실 수 있습니다.</p>
+
+        <!-- SNS 아이콘 -->
+        <div class="social-icons">
+            <a href="#">https://www.youtube.com/@Sp1itOW>Youtube</a> | 
+            <a href="#">https://www.instagram.com/_anjaehoon/>Instagram</a> | 
+            <a href="#">SNS 링크 3</a>
+        </div>
+
+        <!-- 연락 폼 -->
+        <form class="contact-form">
+            <input type="text" placeholder="이름" required>
+            <input type="email" placeholder="이메일" required>
+            <textarea placeholder="메시지" rows="5" required></textarea>
+            <button type="submit">전송</button>
+        </form>
+    </section>
+
+</body>
+</html>
