@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안재훈의 개인 웹페이지</title>
+    <style>
+        /* 배경 스타일 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        /* 카드형 디자인 */
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+            animation: fadeIn 1s ease-out;
+        }
+        
+        /* 애니메이션 효과 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        /* 제목 스타일 */
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        /* 설명 텍스트 */
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        /* 연락처 정보 스타일 */
+        .contact-info {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .contact-info a:hover {
+            color: #0077b5;
+        }
+
+        /* SNS 아이콘 스타일 */
+        .social-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 28px;
+            color: #555;
+            transition: transform 0.3s, color 0.3s;
+        }
+        
+        /* 아이콘 호버 효과 */
+        .social-icons a:hover {
+            color: #0077b5;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>안재훈의 웹페이지</h1>
+        <p>이곳은 안재훈의 개인 웹페이지입니다. 아래 연락처를 통해 언제든지 소통하세요.</p>
+        
+        <!-- 연락처 정보 -->
+        <div class="contact-info">
+            📧 이메일: <a href="mailto:hunihuni13579@gmail.com">hunihuni13579@gmail.com</a><br>
+            📞 전화번호: <a href="tel:+821021965841">+82 10-2196-5841</a>
+        </div>
+
+        <!-- SNS 아이콘 링크 섹션 -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/_anjaehoon/" target="_blank" title="Instagram">📷</a>
+            <a href="https://github.com/jaehoon0707" target="_blank" title="GitHub">💻</a>
+            <a href="https://www.youtube.com/@Sp1itOW" target="_blank" title="YouTube">▶️</a>
+        </div>
+    </div>
+</body>
+</html>
